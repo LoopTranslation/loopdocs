@@ -1,22 +1,22 @@
-# Welcome to Loop
+# Willkommen bei Loop
 
 <img src="img/phones.png" width="300" alt="iPhone Screenshot" />
 <img src="img/watch.png" alt="Apple Watch Screenshots" />
 
-## Introduction
+## Einführung
 
-[Loop](https://github.com/LoopKit/Loop) is an app template for building an automated insulin delivery system. It is a stone resting on the boulders of work done by many others.
+Loop (englisch für "Schleife") ist eine Programmiervorlage, um eine App zu erstellen, die sich um die automatisierte Insulinzufuhr kümmert. Loop is ein kleiner Stein auf einem riesigen Felsblock, der von vielen anderen entwickelt wurde.
 
-The app is built on top of [LoopKit](https://github.com/LoopKit/LoopKit). LoopKit is a set of frameworks that provide data storage, retrieval, and calculation, as well as boilerplate view controllers used in Loop.
+Die App verwendet als Grundlage \[LoopKit\](https://github. com/LoopKit/LoopKit). LoopKit besteht aus einem Satz von Modulen, die sich um die Belange von Datenspeicherung und -besorgung, Berechnungen und um die standardisierten View Controllers kümmert, die von Loop verwendet werden.
 
-!!!warning "Important"
+!!!warning "Achtung"
 
-    Please understand that this project:
+    Dieses Softwareprojekt ist:
 
-    - Is highly experimental
-    - Is not approved for therapy
+    - höchst experimentell
+    - nicht für therapeutische Zwecke zugelassen
 
-      **You take full responsibility for building and running this system and do so at your own risk.**
+      **Du übernimmst selbst die volle Verantwortung, das Programm zu übersetzen und es zu benutzen. Dies geschieht auf dein Risiko!**
 
 Using the open-source Loop app template, you can build an insulin delivery system that uses specific commercial and open-source hardware and software technologies to bring together the insulin pump, continuous glucose monitor (CGM), and insulin dosing algorithm to create a continuous insulin basal dosing “Loop”.  This Loop predicts future glucose based on basal-rate schedules, carbohydrate intake, insulin on board, and current CGM readings.  These glucose forecasts provide Loop with the information needed to recommend a temporary basal rate to attain a targeted glucose range in the future.  The system can either operate as an “open-loop” by making recommendations to the user for their approval before enacting or as a “closed-loop” by automatically setting the recommended temporary basal rate.
 
