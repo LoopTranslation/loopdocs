@@ -1,4 +1,4 @@
-# Step 1: Compatible Computer
+# Step 1: Kompatible Computer
 
 !!!danger "Time Estimate"
     * 5 minutes, if already have Mojave or Catalina macOS
